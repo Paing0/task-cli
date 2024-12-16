@@ -1,8 +1,8 @@
-## task-cli
+# task-cli
 
 A minimalistic command-line interface (CLI) tool for managing tasks.
 
-### Features
+## Features
 
 - Add, update, list, and delete tasks.
 - Manage task statuses ("todo", "in-progress", "completed").
@@ -10,11 +10,11 @@ A minimalistic command-line interface (CLI) tool for managing tasks.
 - Input validation and error handling for tasks.
 - Customizable terminal output with color coding.
 
-### Prerequisites
+## Prerequisites
 
 - Node.js installed on your system.
 
-### Installation & setup
+## Installation & setup
 
 1. Clone the repository:
 
@@ -38,7 +38,7 @@ A minimalistic command-line interface (CLI) tool for managing tasks.
    npm unlink
    ```
 
-### Help menu
+## Help menu
 
 Use `task-cli -h`, `t -h`, or, if you haven’t set up the symlink, `node index
 -h` to display the help menu.
@@ -76,7 +76,7 @@ Tip: Use "task-cli" or "t" instead of "node index".
     Mark one or more task as "completed" by their IDs.
 ```
 
-### Example usage
+## Example usage
 
 ```bash
 $ node index.js add "Finish reading documentation" (or) t -a "Finish reading documentation"
