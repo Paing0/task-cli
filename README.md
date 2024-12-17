@@ -23,20 +23,20 @@ A minimalistic command-line interface (CLI) tool for managing tasks.
    cd tasks-cli
    ```
 
-2. (**Optional but recommeded**) Create a global symlink for the CLI:
+2. Create a global symlink for the CLI:
 
-   ```bash
-   npm link
-   ```
+```bash
+npm link
+```
 
-   This step allows you to use the CLI tool globally by simply typing `tasks-cli` or `t` from any directory instead of running node index.js
-   within the project's folder.
+This step allows you to use the CLI tool globally by simply typing `tasks-cli` or `t` from any directory instead of running node index.js
+within the project's folder.
 
-   If you later want to remove the symlink, you can use:
+If you later want to remove the symlink, you can use:
 
-   ```bash
-   npm unlink
-   ```
+```bash
+npm unlink
+```
 
 ## Help menu
 
